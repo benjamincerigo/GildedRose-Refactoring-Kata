@@ -11,7 +11,7 @@ def test_foo():
 
 
 def test_reduction():
-    """Test that item quality and sell_in is reduce."""
+    """Test that item quality and sell_in is reduced."""
     items = [Item("foo", 2, 2)]
     gilded_rose = GildedRose(items)
     gilded_rose.update_quality()
