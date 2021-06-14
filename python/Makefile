@@ -7,6 +7,9 @@ help:
 	@echo "To lint the codebase run: make lint"
 	@echo "To format the code run: make format"
 	@echo ""
+	@echo "Testing:"
+	@echo "View help for Texttest run: make texttest"
+	@echo ""
 	@echo "Utils:"
 	@echo "To compile the requirements run: make compile"
 	@echo "------------------------------------"
@@ -17,6 +20,11 @@ lint:
 	isort --check-only .
 	black --check .
 	mypy gilded_rose
+
+texttest:
+	@echo "To run this you will need to do the commands:"
+	@echo "cd .."
+	@echo "texttest -con"
 
 format:
 	isort .
