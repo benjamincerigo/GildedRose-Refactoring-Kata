@@ -21,3 +21,8 @@ Install the development and non development requirements:
 - `pip install -r requirements.txt`
 
 `pip-tools` are being used to pin requirements: [See more](https://github.com/jazzband/pip-tools)
+
+# Makefile
+A Make file has been added to aid the development process:
+
+Use `make help` see the list of commands:
