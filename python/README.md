@@ -14,6 +14,7 @@ As such:
 - run `source .venv/bin/activate` to activate your environment.
 - install `pip-tools`: `pip install pip-compile`
 - install the requirements as stated below
+- install `gilded_rose`: `pip install -e .`
 
 ## Requirements
 Install the development and non development requirements:

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+"""Init for the gilded rose."""
 
 
 class GildedRose(object):
