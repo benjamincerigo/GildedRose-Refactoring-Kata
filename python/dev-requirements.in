@@ -6,3 +6,4 @@ mock
 mypy
 pydocstyle
 pytest
+texttest
