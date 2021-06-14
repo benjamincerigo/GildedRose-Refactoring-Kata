@@ -8,9 +8,12 @@ Item = dtypes.Item
 
 
 class GildedRose(object):
+    """GildedRose interface."""
+
     def __init__(self, items):
         self.items = items
 
     def update_quality(self):
+        """Update the items."""
         for item in self.items:
             legacy.update(item)
