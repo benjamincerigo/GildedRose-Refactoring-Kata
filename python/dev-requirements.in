@@ -1,0 +1,9 @@
+# Development dependencies
+black
+flake8
+isort
+mock
+mypy
+pydocstyle
+pytest
+texttest

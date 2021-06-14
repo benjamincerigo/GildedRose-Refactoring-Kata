@@ -1,17 +1,11 @@
 exclude:
 - /js/lib/.*
-component_depth: 1
+component_depth: 3
 languages:
-- cpp
-- csharp
-- go
-- groovy
-- java
-- javascript
-- perl
-- php
-- python
-- ruby
-- scala
-- script
-- swift
+- name: python
+  production:
+    include:
+      - /python/*
+    exclude:
+      - /python/gilded_rose/updater/legacy.py
+      - /python/texttest_fixture.py
