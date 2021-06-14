@@ -8,6 +8,8 @@ It is recommended to use `pyenv` to manage your installed python version when de
 # Development
 It is recommended to use `pyenv` and `vitualenv` when setting up a development environment for this repo.
 
+The python version for `pyenv` will be picked up automatically by the `.python-version` file.
+
 As such:
 - [Install `pyenv`](https://github.com/pyenv/pyenv#installation)
 - run `python -m venv .venv` to create your environment.
