@@ -8,6 +8,7 @@ help:
 	@echo "To format the code run: make format"
 	@echo ""
 	@echo "Testing:"
+	@echo "To run the test suite: make test"
 	@echo "View help for Texttest run: make texttest"
 	@echo ""
 	@echo "Utils:"
@@ -20,6 +21,9 @@ lint:
 	isort --check-only .
 	black --check .
 	mypy gilded_rose
+
+test:
+	pytest .
 
 texttest:
 	@echo "To run this you will need to do the commands:"
