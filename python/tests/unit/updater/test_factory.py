@@ -6,7 +6,7 @@ from gilded_rose.updater import constants, factory
 
 
 def test_not_found():
-    """Test that when item has no updater."""
+    """Test item with no updater."""
     item = dtypes.Item("not_found", 1, 1)
     result = factory.get_updater(item)
     assert result is None
