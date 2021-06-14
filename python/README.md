@@ -12,3 +12,12 @@ As such:
 - [Install `pyenv`](https://github.com/pyenv/pyenv#installation)
 - run `python -m venv .venv` to create your environment.
 - run `source .venv/bin/activate` to activate your environment.
+- install `pip-tools`: `pip install pip-compile`
+- install the requirements as stated below
+
+## Requirements
+Install the development and non development requirements:
+- `pip install -r dev-requirements.txt`
+- `pip install -r requirements.txt`
+
+`pip-tools` are being used to pin requirements: [See more](https://github.com/jazzband/pip-tools)
