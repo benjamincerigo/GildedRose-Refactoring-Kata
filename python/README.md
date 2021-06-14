@@ -3,7 +3,7 @@
 # Python version
 `.python-version` holds the recommended version of python that the repo was developed in.
 
-It is recommended to us `pyenv` when developing on this repo.
+It is recommended to use `pyenv` to manage your installed python version when developing.
 
 # Development
 It is recommended to use `pyenv` and `vitualenv` when setting up a development environment for this repo.
