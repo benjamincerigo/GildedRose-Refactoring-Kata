@@ -6,3 +6,6 @@ languages:
   production:
     include:
       - /python/*
+    exclude:
+      - /python/gilded_rose/updater/legacy.py
+      - /python/texttest_fixture.py
