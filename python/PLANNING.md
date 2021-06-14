@@ -7,7 +7,7 @@ Structure of the work that will be done in 2 to 3 hours (is open to change):
 - 30 mins test suite
   - refactor tests to use pytest
   - get TextTest working
-  - make a few more tests
+  - make further tests that cover critical aspects
 - 15 mins `updater_legacy.py`
   - move legacy functionality into a separate module
 - 15 mins plan new `updater.py` module
