@@ -1,7 +1,7 @@
 """Init for the gilded rose."""
 
 from gilded_rose import dtypes
-from gilded_rose.updater import legacy
+from gilded_rose.updater import factory, legacy
 
 
 Item = dtypes.Item
@@ -16,4 +16,8 @@ class GildedRose(object):
     def update_quality(self):
         """Update the items."""
         for item in self.items:
-            legacy.update(item)
+            updater = factory.get_updater(item)
+            if updater:
+                updater(item)
+            else:
+                legacy.update(item)
